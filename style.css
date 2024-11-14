@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*MI CSS*/
+
+.header-top {
+	background-color: #e8999f;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	letter-spacing: 3px;
+	font-size: 10px;
+	font-weight: 200;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	height: 100px;
+	padding: 18px 50px;
+}
+
+.logo img {
+	width: 145px;
+}
+
+.menu nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 25px;
+}
+
+.menu {
+	font-family: "Poppins", serif;
+	color: #009d95;
+	text-decoration: none;
+	font-weight: 400;
+
+}
+
+.usuario {
+	display: flex;
+	gap: 15px;
+
+}
+
+.usuario svg {
+	width: 20px;
+	color: #009d95;
+}
+
+.masterhead {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://planet-skin.com/cdn/shop/files/1800x800-1_4_0a0987e5-3e9f-4f81-b647-f873f71f900a_1000x.jpg?v=1730280903');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding: 50px;
+	gap: 25px;
+}
+
+.Slideshow__Image {
+	display: none;
+}
+
+.masterhead h3 {
+font-size: 12px;
+font-weight: lighter;
+}
+
+.masterhead h1 {
+	font-size: 20px;
+}
+
+.masterhead button {
+	background-color: #e8999f;
+	border: none;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 4px;
+	padding: 15px 25px;
+	transition: 0.5s ease;
+}
+
+.masterhead button:hover {
+	color: #e8999f;
+	background-color: transparent;
+	border: 1px #e8999f solid;
+}
+
+.flotante {
+	background-color: #e8999f;
+	border-radius: 120px;
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
